@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es" xmlns:th="http://thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Noticias de la web</title>
+<link rel="stylesheet"
+	href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+	integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+	crossorigin="anonymous">
+</head>
+<body>
+	<h1 align="center">Sistema de noticias</h1>
+	<br>
+
+	<div class="row row-cols-1 row-cols-md-5">
+		<div class="col mb-4">
+			<div class="card">
+				<img th:src="${noticia1[2]}" class="card-img-top" alt="...">
+				<div class="card-body">
+					<h5 class="card-title" th:text="${noticia1[0]}"></h5>
+						<p class="card-text" th:text="${noticia1[1]}"></p>
+				</div>
+			</div>
+		</div>
+		<div class="col mb-4">
+			<div class="card">
+				<img th:src="${noticia2[2]}" class="card-img-top" alt="...">
+				<div class="card-body">
+					<h5 class="card-title" th:text="${noticia2[0]}"></h5>
+						<p class="card-text" th:text="${noticia2[1]}"></p>
+				</div>
+			</div>
+		</div>
+		<div class="col mb-4">
+			<div class="card">
+				<img th:src="${noticia3[2]}" class="card-img-top" alt="...">
+				<div class="card-body">
+					<h5 class="card-title" th:text="${noticia3[0]}"></h5>
+						<p class="card-text" th:text="${noticia3[0]}"></p>
+				</div>
+			</div>
+		</div>
+		<div class="col mb-4">
+			<div class="card">
+				<img th:src="${noticia4[2]}" class="card-img-top" alt="...">
+				<div class="card-body">
+					<h5 class="card-title" th:text="${noticia4[0]}"></h5>
+						<p class="card-text" th:text="${noticia4[0]}"></p>
+				</div>
+			</div>
+		</div>
+		<div class="col mb-4">
+			<div class="card">
+				<img th:src="${noticia5[2]}" class="card-img-top" alt="...">
+				<div class="card-body">
+					<h5 class="card-title" th:text="${noticia5[0]}"></h5>
+						<p class="card-text" th:text="${noticia5[0]}"></p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>

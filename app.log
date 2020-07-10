@@ -1,0 +1,356 @@
+2020-07-10 00:00:23.003  INFO 13640 --- [restartedMain] cl.desafio.DesafioLecturaApplication     : Starting DesafioLecturaApplication on NI5B17 with PID 13640 (C:\Users\NI5B35\Documents\workspace-spring-tool-suite-4-4.6.1.RELEASE\desafioLectura\target\classes started by NI5B35 in C:\Users\NI5B35\Documents\workspace-spring-tool-suite-4-4.6.1.RELEASE\desafioLectura)
+2020-07-10 00:00:23.014  INFO 13640 --- [restartedMain] cl.desafio.DesafioLecturaApplication     : No active profile set, falling back to default profiles: default
+2020-07-10 00:00:23.127  INFO 13640 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-07-10 00:00:23.128  INFO 13640 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-07-10 00:00:24.910  INFO 13640 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-07-10 00:00:24.925  INFO 13640 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-07-10 00:00:24.926  INFO 13640 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-10 00:00:25.349  INFO 13640 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-07-10 00:00:25.359  INFO 13640 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-07-10 00:00:25.360  INFO 13640 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2231 ms
+2020-07-10 00:00:25.730  INFO 13640 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-10 00:00:25.754 DEBUG 13640 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2020-07-10 00:00:25.842 DEBUG 13640 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 3 mappings in 'requestMappingHandlerMapping'
+2020-07-10 00:00:25.889 DEBUG 13640 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2020-07-10 00:00:25.906 DEBUG 13640 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2020-07-10 00:00:26.070  INFO 13640 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-07-10 00:00:26.144  INFO 13640 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-07-10 00:00:26.177  INFO 13640 --- [restartedMain] cl.desafio.DesafioLecturaApplication     : Started DesafioLecturaApplication in 3.774 seconds (JVM running for 5.152)
+2020-07-10 00:00:53.859  INFO 13640 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-10 00:00:53.860  INFO 13640 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-07-10 00:00:53.861 DEBUG 13640 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2020-07-10 00:00:53.870 DEBUG 13640 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2020-07-10 00:00:53.870  INFO 13640 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2020-07-10 00:00:53.889 DEBUG 13640 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2020-07-10 00:00:53.894 DEBUG 13640 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to cl.desafio.Principal#Main(Model)
+2020-07-10 00:00:53.927  INFO 13640 --- [http-nio-8080-exec-1] cl.desafio.Principal                     : Noticia añadida correctamente
+2020-07-10 00:00:53.927  INFO 13640 --- [http-nio-8080-exec-1] cl.desafio.Principal                     : Noticia añadida correctamente
+2020-07-10 00:00:53.927  INFO 13640 --- [http-nio-8080-exec-1] cl.desafio.Principal                     : Noticia añadida correctamente
+2020-07-10 00:00:53.928  INFO 13640 --- [http-nio-8080-exec-1] cl.desafio.Principal                     : Noticia añadida correctamente
+2020-07-10 00:00:53.928  INFO 13640 --- [http-nio-8080-exec-1] cl.desafio.Principal                     : Noticia añadida correctamente
+2020-07-10 00:00:53.928  INFO 13640 --- [http-nio-8080-exec-1] cl.desafio.Principal                     : Noticia añadida correctamente
+2020-07-10 00:00:53.945 DEBUG 13640 --- [http-nio-8080-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+2020-07-10 00:00:54.488 DEBUG 13640 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-07-10 00:01:03.557 DEBUG 13640 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2020-07-10 00:01:03.557 DEBUG 13640 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to cl.desafio.Principal#Main(Model)
+2020-07-10 00:01:03.558  INFO 13640 --- [http-nio-8080-exec-2] cl.desafio.Principal                     : Noticia añadida correctamente
+2020-07-10 00:01:03.558  INFO 13640 --- [http-nio-8080-exec-2] cl.desafio.Principal                     : Noticia añadida correctamente
+2020-07-10 00:01:03.559  INFO 13640 --- [http-nio-8080-exec-2] cl.desafio.Principal                     : Noticia añadida correctamente
+2020-07-10 00:01:03.559  INFO 13640 --- [http-nio-8080-exec-2] cl.desafio.Principal                     : Noticia añadida correctamente
+2020-07-10 00:01:03.559  INFO 13640 --- [http-nio-8080-exec-2] cl.desafio.Principal                     : Noticia añadida correctamente
+2020-07-10 00:01:03.559  INFO 13640 --- [http-nio-8080-exec-2] cl.desafio.Principal                     : Noticia añadida correctamente
+2020-07-10 00:01:03.560 DEBUG 13640 --- [http-nio-8080-exec-2] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+2020-07-10 00:01:03.568 DEBUG 13640 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-07-10 00:01:06.189 DEBUG 13640 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2020-07-10 00:01:06.190 DEBUG 13640 --- [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to cl.desafio.Principal#Main(Model)
+2020-07-10 00:01:06.190  INFO 13640 --- [http-nio-8080-exec-4] cl.desafio.Principal                     : Noticia añadida correctamente
+2020-07-10 00:01:06.190  INFO 13640 --- [http-nio-8080-exec-4] cl.desafio.Principal                     : Noticia añadida correctamente
+2020-07-10 00:01:06.190  INFO 13640 --- [http-nio-8080-exec-4] cl.desafio.Principal                     : Noticia añadida correctamente
+2020-07-10 00:01:06.190  INFO 13640 --- [http-nio-8080-exec-4] cl.desafio.Principal                     : Noticia añadida correctamente
+2020-07-10 00:01:06.191  INFO 13640 --- [http-nio-8080-exec-4] cl.desafio.Principal                     : Noticia añadida correctamente
+2020-07-10 00:01:06.191  INFO 13640 --- [http-nio-8080-exec-4] cl.desafio.Principal                     : Noticia añadida correctamente
+2020-07-10 00:01:06.192 DEBUG 13640 --- [http-nio-8080-exec-4] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+2020-07-10 00:01:06.198 DEBUG 13640 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-07-10 00:05:01.869 DEBUG 13640 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2020-07-10 00:05:01.870 DEBUG 13640 --- [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to cl.desafio.Principal#Main(Model)
+2020-07-10 00:05:01.872  INFO 13640 --- [http-nio-8080-exec-7] cl.desafio.Principal                     : Noticia añadida correctamente
+2020-07-10 00:05:01.872  INFO 13640 --- [http-nio-8080-exec-7] cl.desafio.Principal                     : Noticia añadida correctamente
+2020-07-10 00:05:01.874  INFO 13640 --- [http-nio-8080-exec-7] cl.desafio.Principal                     : Noticia añadida correctamente
+2020-07-10 00:05:01.874  INFO 13640 --- [http-nio-8080-exec-7] cl.desafio.Principal                     : Noticia añadida correctamente
+2020-07-10 00:05:01.874  INFO 13640 --- [http-nio-8080-exec-7] cl.desafio.Principal                     : Noticia añadida correctamente
+2020-07-10 00:05:01.874  INFO 13640 --- [http-nio-8080-exec-7] cl.desafio.Principal                     : Noticia añadida correctamente
+2020-07-10 00:05:01.877 DEBUG 13640 --- [http-nio-8080-exec-7] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+2020-07-10 00:05:01.881 DEBUG 13640 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-07-10 00:09:00.647  INFO 13640 --- [RMI TCP Connection(5)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2020-07-10 00:09:00.920  INFO 13640 --- [RMI TCP Connection(5)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-10 00:10:34.268  INFO 5908 --- [restartedMain] cl.desafio.DesafioLecturaApplication     : Starting DesafioLecturaApplication on NI5B17 with PID 5908 (C:\Users\NI5B35\Documents\workspace-spring-tool-suite-4-4.6.1.RELEASE\desafioLectura\target\classes started by NI5B35 in C:\Users\NI5B35\Documents\workspace-spring-tool-suite-4-4.6.1.RELEASE\desafioLectura)
+2020-07-10 00:10:34.271  INFO 5908 --- [restartedMain] cl.desafio.DesafioLecturaApplication     : No active profile set, falling back to default profiles: default
+2020-07-10 00:10:34.320  INFO 5908 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-07-10 00:10:34.321  INFO 5908 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-07-10 00:10:35.248  INFO 5908 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-07-10 00:10:35.256  INFO 5908 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-07-10 00:10:35.257  INFO 5908 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-10 00:10:35.493  INFO 5908 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-07-10 00:10:35.498  INFO 5908 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-07-10 00:10:35.499  INFO 5908 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1177 ms
+2020-07-10 00:10:35.687  INFO 5908 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-10 00:10:35.699 DEBUG 5908 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2020-07-10 00:10:35.757 DEBUG 5908 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 3 mappings in 'requestMappingHandlerMapping'
+2020-07-10 00:10:35.785 DEBUG 5908 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2020-07-10 00:10:35.796 DEBUG 5908 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2020-07-10 00:10:35.917  INFO 5908 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-07-10 00:10:35.989  INFO 5908 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-07-10 00:10:36.002  INFO 5908 --- [restartedMain] cl.desafio.DesafioLecturaApplication     : Started DesafioLecturaApplication in 2.087 seconds (JVM running for 2.969)
+2020-07-10 00:10:45.116  INFO 5908 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-10 00:10:45.117  INFO 5908 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-07-10 00:10:45.117 DEBUG 5908 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2020-07-10 00:10:45.122 DEBUG 5908 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2020-07-10 00:10:45.123  INFO 5908 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2020-07-10 00:10:45.132 DEBUG 5908 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2020-07-10 00:10:45.135 DEBUG 5908 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to cl.desafio.Principal#Main(Model)
+2020-07-10 00:10:45.149  INFO 5908 --- [http-nio-8080-exec-1] cl.desafio.Principal                     : Noticia añadida correctamente
+2020-07-10 00:10:45.149  INFO 5908 --- [http-nio-8080-exec-1] cl.desafio.Principal                     : Noticia añadida correctamente
+2020-07-10 00:10:45.150  INFO 5908 --- [http-nio-8080-exec-1] cl.desafio.Principal                     : Noticia añadida correctamente
+2020-07-10 00:10:45.150  INFO 5908 --- [http-nio-8080-exec-1] cl.desafio.Principal                     : Noticia añadida correctamente
+2020-07-10 00:10:45.150  INFO 5908 --- [http-nio-8080-exec-1] cl.desafio.Principal                     : Noticia añadida correctamente
+2020-07-10 00:10:45.150  INFO 5908 --- [http-nio-8080-exec-1] cl.desafio.Principal                     : Noticia añadida correctamente
+2020-07-10 00:10:45.158 DEBUG 5908 --- [http-nio-8080-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+2020-07-10 00:10:45.546 DEBUG 5908 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-07-10 00:10:45.573 DEBUG 5908 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/...", parameters={}
+2020-07-10 00:10:45.577 DEBUG 5908 --- [http-nio-8080-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2020-07-10 00:10:45.581 DEBUG 5908 --- [http-nio-8080-exec-2] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2020-07-10 00:10:45.582 DEBUG 5908 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2020-07-10 00:10:45.587 DEBUG 5908 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2020-07-10 00:10:45.588 DEBUG 5908 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2020-07-10 00:10:45.617 DEBUG 5908 --- [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json;q=0.8', given [image/webp, image/apng, image/*, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-07-10 00:10:45.618 DEBUG 5908 --- [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Fri Jul 10 00:10:45 CLT 2020, status=404, error=Not Found, message=No message available,  (truncated)...]
+2020-07-10 00:10:45.662 DEBUG 5908 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2020-07-10 00:13:33.398 DEBUG 5908 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2020-07-10 00:13:33.399 DEBUG 5908 --- [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to cl.desafio.Principal#Main(Model)
+2020-07-10 00:13:33.400  INFO 5908 --- [http-nio-8080-exec-5] cl.desafio.Principal                     : Noticia añadida correctamente
+2020-07-10 00:13:33.400  INFO 5908 --- [http-nio-8080-exec-5] cl.desafio.Principal                     : Noticia añadida correctamente
+2020-07-10 00:13:33.400  INFO 5908 --- [http-nio-8080-exec-5] cl.desafio.Principal                     : Noticia añadida correctamente
+2020-07-10 00:13:33.400  INFO 5908 --- [http-nio-8080-exec-5] cl.desafio.Principal                     : Noticia añadida correctamente
+2020-07-10 00:13:33.400  INFO 5908 --- [http-nio-8080-exec-5] cl.desafio.Principal                     : Noticia añadida correctamente
+2020-07-10 00:13:33.401  INFO 5908 --- [http-nio-8080-exec-5] cl.desafio.Principal                     : Noticia añadida correctamente
+2020-07-10 00:13:33.403 DEBUG 5908 --- [http-nio-8080-exec-5] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+2020-07-10 00:13:33.411 DEBUG 5908 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-07-10 00:13:33.443 DEBUG 5908 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/...", parameters={}
+2020-07-10 00:13:33.444 DEBUG 5908 --- [http-nio-8080-exec-6] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2020-07-10 00:13:33.449 DEBUG 5908 --- [http-nio-8080-exec-6] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2020-07-10 00:13:33.450 DEBUG 5908 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2020-07-10 00:13:33.450 DEBUG 5908 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2020-07-10 00:13:33.451 DEBUG 5908 --- [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2020-07-10 00:13:33.453 DEBUG 5908 --- [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json;q=0.8', given [image/webp, image/apng, image/*, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-07-10 00:13:33.454 DEBUG 5908 --- [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Fri Jul 10 00:13:33 CLT 2020, status=404, error=Not Found, message=No message available,  (truncated)...]
+2020-07-10 00:13:33.456 DEBUG 5908 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2020-07-10 00:14:17.123  INFO 5908 --- [Thread-126] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-10 00:14:17.268  INFO 5908 --- [restartedMain] cl.desafio.DesafioLecturaApplication     : Starting DesafioLecturaApplication on NI5B17 with PID 5908 (C:\Users\NI5B35\Documents\workspace-spring-tool-suite-4-4.6.1.RELEASE\desafioLectura\target\classes started by NI5B35 in C:\Users\NI5B35\Documents\workspace-spring-tool-suite-4-4.6.1.RELEASE\desafioLectura)
+2020-07-10 00:14:17.269  INFO 5908 --- [restartedMain] cl.desafio.DesafioLecturaApplication     : No active profile set, falling back to default profiles: default
+2020-07-10 00:14:24.954  INFO 14768 --- [restartedMain] cl.desafio.DesafioLecturaApplication     : Starting DesafioLecturaApplication on NI5B17 with PID 14768 (C:\Users\NI5B35\Documents\workspace-spring-tool-suite-4-4.6.1.RELEASE\desafioLectura\target\classes started by NI5B35 in C:\Users\NI5B35\Documents\workspace-spring-tool-suite-4-4.6.1.RELEASE\desafioLectura)
+2020-07-10 00:14:24.957  INFO 14768 --- [restartedMain] cl.desafio.DesafioLecturaApplication     : No active profile set, falling back to default profiles: default
+2020-07-10 00:14:25.005  INFO 14768 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-07-10 00:14:25.005  INFO 14768 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-07-10 00:14:25.992  INFO 14768 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-07-10 00:14:26.000  INFO 14768 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-07-10 00:14:26.001  INFO 14768 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-10 00:14:26.254  INFO 14768 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-07-10 00:14:26.260  INFO 14768 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-07-10 00:14:26.260  INFO 14768 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1255 ms
+2020-07-10 00:14:26.428  INFO 14768 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-10 00:14:26.442 DEBUG 14768 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2020-07-10 00:14:26.496 DEBUG 14768 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 3 mappings in 'requestMappingHandlerMapping'
+2020-07-10 00:14:26.525 DEBUG 14768 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2020-07-10 00:14:26.561 DEBUG 14768 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2020-07-10 00:14:26.663  INFO 14768 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-07-10 00:14:26.721  INFO 14768 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-07-10 00:14:26.734  INFO 14768 --- [restartedMain] cl.desafio.DesafioLecturaApplication     : Started DesafioLecturaApplication in 2.135 seconds (JVM running for 2.993)
+2020-07-10 00:14:54.976  INFO 14768 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-10 00:14:54.977  INFO 14768 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-07-10 00:14:54.977 DEBUG 14768 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2020-07-10 00:14:54.984 DEBUG 14768 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2020-07-10 00:14:54.985  INFO 14768 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2020-07-10 00:14:54.992 DEBUG 14768 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2020-07-10 00:14:54.995 DEBUG 14768 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to cl.desafio.Principal#Main(Model)
+2020-07-10 00:14:55.008  INFO 14768 --- [http-nio-8080-exec-1] cl.desafio.Principal                     : Noticia añadida correctamente
+2020-07-10 00:14:55.008  INFO 14768 --- [http-nio-8080-exec-1] cl.desafio.Principal                     : Noticia añadida correctamente
+2020-07-10 00:14:55.008  INFO 14768 --- [http-nio-8080-exec-1] cl.desafio.Principal                     : Noticia añadida correctamente
+2020-07-10 00:14:55.008  INFO 14768 --- [http-nio-8080-exec-1] cl.desafio.Principal                     : Noticia añadida correctamente
+2020-07-10 00:14:55.008  INFO 14768 --- [http-nio-8080-exec-1] cl.desafio.Principal                     : Noticia añadida correctamente
+2020-07-10 00:14:55.008  INFO 14768 --- [http-nio-8080-exec-1] cl.desafio.Principal                     : Noticia añadida correctamente
+2020-07-10 00:14:55.019 DEBUG 14768 --- [http-nio-8080-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+2020-07-10 00:14:55.405 DEBUG 14768 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-07-10 00:14:55.430 DEBUG 14768 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/...", parameters={}
+2020-07-10 00:14:55.436 DEBUG 14768 --- [http-nio-8080-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2020-07-10 00:14:55.443 DEBUG 14768 --- [http-nio-8080-exec-2] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2020-07-10 00:14:55.443 DEBUG 14768 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2020-07-10 00:14:55.452 DEBUG 14768 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2020-07-10 00:14:55.454 DEBUG 14768 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2020-07-10 00:14:55.491 DEBUG 14768 --- [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json;q=0.8', given [image/webp, image/apng, image/*, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-07-10 00:14:55.492 DEBUG 14768 --- [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Fri Jul 10 00:14:55 CLT 2020, status=404, error=Not Found, message=No message available,  (truncated)...]
+2020-07-10 00:14:55.544 DEBUG 14768 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2020-07-10 00:19:52.615  INFO 14768 --- [Thread-126] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-10 00:19:52.749  INFO 14768 --- [restartedMain] cl.desafio.DesafioLecturaApplication     : Starting DesafioLecturaApplication on NI5B17 with PID 14768 (C:\Users\NI5B35\Documents\workspace-spring-tool-suite-4-4.6.1.RELEASE\desafioLectura\target\classes started by NI5B35 in C:\Users\NI5B35\Documents\workspace-spring-tool-suite-4-4.6.1.RELEASE\desafioLectura)
+2020-07-10 00:19:52.749  INFO 14768 --- [restartedMain] cl.desafio.DesafioLecturaApplication     : No active profile set, falling back to default profiles: default
+2020-07-10 00:19:53.070  INFO 14768 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-07-10 00:19:53.071  INFO 14768 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-07-10 00:19:53.071  INFO 14768 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-10 00:19:53.140  INFO 14768 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-07-10 00:19:53.142  INFO 14768 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-07-10 00:19:53.142  INFO 14768 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 389 ms
+2020-07-10 00:19:53.197  INFO 14768 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-10 00:19:53.200 DEBUG 14768 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2020-07-10 00:19:53.208 DEBUG 14768 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 3 mappings in 'requestMappingHandlerMapping'
+2020-07-10 00:19:53.220 DEBUG 14768 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2020-07-10 00:19:53.227 DEBUG 14768 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2020-07-10 00:19:53.259  INFO 14768 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-07-10 00:19:53.272  INFO 14768 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-07-10 00:19:53.276  INFO 14768 --- [restartedMain] cl.desafio.DesafioLecturaApplication     : Started DesafioLecturaApplication in 0.566 seconds (JVM running for 329.535)
+2020-07-10 00:19:53.279  INFO 14768 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-07-10 00:21:50.531  INFO 14768 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-10 00:21:50.533  INFO 14768 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-07-10 00:21:50.533 DEBUG 14768 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2020-07-10 00:21:50.541 DEBUG 14768 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2020-07-10 00:21:50.542  INFO 14768 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2020-07-10 00:21:50.542 DEBUG 14768 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2020-07-10 00:21:50.542 DEBUG 14768 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to cl.desafio.Principal#Main(Model)
+2020-07-10 00:21:50.544  INFO 14768 --- [http-nio-8080-exec-1] cl.desafio.Principal                     : Noticia añadida correctamente
+2020-07-10 00:21:50.544  INFO 14768 --- [http-nio-8080-exec-1] cl.desafio.Principal                     : Noticia añadida correctamente
+2020-07-10 00:21:50.544  INFO 14768 --- [http-nio-8080-exec-1] cl.desafio.Principal                     : Noticia añadida correctamente
+2020-07-10 00:21:50.544  INFO 14768 --- [http-nio-8080-exec-1] cl.desafio.Principal                     : Noticia añadida correctamente
+2020-07-10 00:21:50.544  INFO 14768 --- [http-nio-8080-exec-1] cl.desafio.Principal                     : Noticia añadida correctamente
+2020-07-10 00:21:50.544  INFO 14768 --- [http-nio-8080-exec-1] cl.desafio.Principal                     : Noticia añadida correctamente
+2020-07-10 00:21:50.548 DEBUG 14768 --- [http-nio-8080-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+2020-07-10 00:21:50.569 DEBUG 14768 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-07-10 00:22:16.214 DEBUG 14768 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2020-07-10 00:22:16.216 DEBUG 14768 --- [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to cl.desafio.Principal#Main(Model)
+2020-07-10 00:22:16.216  INFO 14768 --- [http-nio-8080-exec-3] cl.desafio.Principal                     : Noticia añadida correctamente
+2020-07-10 00:22:16.217  INFO 14768 --- [http-nio-8080-exec-3] cl.desafio.Principal                     : Noticia añadida correctamente
+2020-07-10 00:22:16.217  INFO 14768 --- [http-nio-8080-exec-3] cl.desafio.Principal                     : Noticia añadida correctamente
+2020-07-10 00:22:16.217  INFO 14768 --- [http-nio-8080-exec-3] cl.desafio.Principal                     : Noticia añadida correctamente
+2020-07-10 00:22:16.217  INFO 14768 --- [http-nio-8080-exec-3] cl.desafio.Principal                     : Noticia añadida correctamente
+2020-07-10 00:22:16.217  INFO 14768 --- [http-nio-8080-exec-3] cl.desafio.Principal                     : Noticia añadida correctamente
+2020-07-10 00:22:16.219 DEBUG 14768 --- [http-nio-8080-exec-3] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+2020-07-10 00:22:16.226 DEBUG 14768 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-07-10 00:22:56.781 DEBUG 14768 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2020-07-10 00:22:56.782 DEBUG 14768 --- [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to cl.desafio.Principal#Main(Model)
+2020-07-10 00:22:56.783  INFO 14768 --- [http-nio-8080-exec-5] cl.desafio.Principal                     : Noticia añadida correctamente
+2020-07-10 00:22:56.783  INFO 14768 --- [http-nio-8080-exec-5] cl.desafio.Principal                     : Noticia añadida correctamente
+2020-07-10 00:22:56.784  INFO 14768 --- [http-nio-8080-exec-5] cl.desafio.Principal                     : Noticia añadida correctamente
+2020-07-10 00:22:56.784  INFO 14768 --- [http-nio-8080-exec-5] cl.desafio.Principal                     : Noticia añadida correctamente
+2020-07-10 00:22:56.785  INFO 14768 --- [http-nio-8080-exec-5] cl.desafio.Principal                     : Noticia añadida correctamente
+2020-07-10 00:22:56.785  INFO 14768 --- [http-nio-8080-exec-5] cl.desafio.Principal                     : Noticia añadida correctamente
+2020-07-10 00:22:56.786 DEBUG 14768 --- [http-nio-8080-exec-5] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+2020-07-10 00:22:56.795 DEBUG 14768 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-07-10 00:23:09.854 DEBUG 14768 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2020-07-10 00:23:09.855 DEBUG 14768 --- [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to cl.desafio.Principal#Main(Model)
+2020-07-10 00:23:09.855  INFO 14768 --- [http-nio-8080-exec-7] cl.desafio.Principal                     : Noticia añadida correctamente
+2020-07-10 00:23:09.855  INFO 14768 --- [http-nio-8080-exec-7] cl.desafio.Principal                     : Noticia añadida correctamente
+2020-07-10 00:23:09.855  INFO 14768 --- [http-nio-8080-exec-7] cl.desafio.Principal                     : Noticia añadida correctamente
+2020-07-10 00:23:09.855  INFO 14768 --- [http-nio-8080-exec-7] cl.desafio.Principal                     : Noticia añadida correctamente
+2020-07-10 00:23:09.855  INFO 14768 --- [http-nio-8080-exec-7] cl.desafio.Principal                     : Noticia añadida correctamente
+2020-07-10 00:23:09.855  INFO 14768 --- [http-nio-8080-exec-7] cl.desafio.Principal                     : Noticia añadida correctamente
+2020-07-10 00:23:09.856 DEBUG 14768 --- [http-nio-8080-exec-7] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+2020-07-10 00:23:09.866 DEBUG 14768 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-07-10 00:23:11.350 DEBUG 14768 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2020-07-10 00:23:11.351 DEBUG 14768 --- [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to cl.desafio.Principal#Main(Model)
+2020-07-10 00:23:11.352  INFO 14768 --- [http-nio-8080-exec-8] cl.desafio.Principal                     : Noticia añadida correctamente
+2020-07-10 00:23:11.352  INFO 14768 --- [http-nio-8080-exec-8] cl.desafio.Principal                     : Noticia añadida correctamente
+2020-07-10 00:23:11.352  INFO 14768 --- [http-nio-8080-exec-8] cl.desafio.Principal                     : Noticia añadida correctamente
+2020-07-10 00:23:11.352  INFO 14768 --- [http-nio-8080-exec-8] cl.desafio.Principal                     : Noticia añadida correctamente
+2020-07-10 00:23:11.352  INFO 14768 --- [http-nio-8080-exec-8] cl.desafio.Principal                     : Noticia añadida correctamente
+2020-07-10 00:23:11.352  INFO 14768 --- [http-nio-8080-exec-8] cl.desafio.Principal                     : Noticia añadida correctamente
+2020-07-10 00:23:11.353 DEBUG 14768 --- [http-nio-8080-exec-8] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+2020-07-10 00:23:11.357 DEBUG 14768 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-07-10 00:23:12.317 DEBUG 14768 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2020-07-10 00:23:12.317 DEBUG 14768 --- [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to cl.desafio.Principal#Main(Model)
+2020-07-10 00:23:12.318  INFO 14768 --- [http-nio-8080-exec-9] cl.desafio.Principal                     : Noticia añadida correctamente
+2020-07-10 00:23:12.318  INFO 14768 --- [http-nio-8080-exec-9] cl.desafio.Principal                     : Noticia añadida correctamente
+2020-07-10 00:23:12.318  INFO 14768 --- [http-nio-8080-exec-9] cl.desafio.Principal                     : Noticia añadida correctamente
+2020-07-10 00:23:12.318  INFO 14768 --- [http-nio-8080-exec-9] cl.desafio.Principal                     : Noticia añadida correctamente
+2020-07-10 00:23:12.318  INFO 14768 --- [http-nio-8080-exec-9] cl.desafio.Principal                     : Noticia añadida correctamente
+2020-07-10 00:23:12.318  INFO 14768 --- [http-nio-8080-exec-9] cl.desafio.Principal                     : Noticia añadida correctamente
+2020-07-10 00:23:12.320 DEBUG 14768 --- [http-nio-8080-exec-9] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+2020-07-10 00:23:12.325 DEBUG 14768 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-07-10 00:23:20.101 DEBUG 14768 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2020-07-10 00:23:20.102 DEBUG 14768 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to cl.desafio.Principal#Main(Model)
+2020-07-10 00:23:20.102  INFO 14768 --- [http-nio-8080-exec-1] cl.desafio.Principal                     : Noticia añadida correctamente
+2020-07-10 00:23:20.102  INFO 14768 --- [http-nio-8080-exec-1] cl.desafio.Principal                     : Noticia añadida correctamente
+2020-07-10 00:23:20.102  INFO 14768 --- [http-nio-8080-exec-1] cl.desafio.Principal                     : Noticia añadida correctamente
+2020-07-10 00:23:20.103  INFO 14768 --- [http-nio-8080-exec-1] cl.desafio.Principal                     : Noticia añadida correctamente
+2020-07-10 00:23:20.103  INFO 14768 --- [http-nio-8080-exec-1] cl.desafio.Principal                     : Noticia añadida correctamente
+2020-07-10 00:23:20.103  INFO 14768 --- [http-nio-8080-exec-1] cl.desafio.Principal                     : Noticia añadida correctamente
+2020-07-10 00:23:20.104 DEBUG 14768 --- [http-nio-8080-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+2020-07-10 00:23:20.110 DEBUG 14768 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-07-10 00:23:31.543 DEBUG 14768 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2020-07-10 00:23:31.544 DEBUG 14768 --- [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to cl.desafio.Principal#Main(Model)
+2020-07-10 00:23:31.545  INFO 14768 --- [http-nio-8080-exec-3] cl.desafio.Principal                     : Noticia añadida correctamente
+2020-07-10 00:23:31.546  INFO 14768 --- [http-nio-8080-exec-3] cl.desafio.Principal                     : Noticia añadida correctamente
+2020-07-10 00:23:31.546  INFO 14768 --- [http-nio-8080-exec-3] cl.desafio.Principal                     : Noticia añadida correctamente
+2020-07-10 00:23:31.546  INFO 14768 --- [http-nio-8080-exec-3] cl.desafio.Principal                     : Noticia añadida correctamente
+2020-07-10 00:23:31.546  INFO 14768 --- [http-nio-8080-exec-3] cl.desafio.Principal                     : Noticia añadida correctamente
+2020-07-10 00:23:31.546  INFO 14768 --- [http-nio-8080-exec-3] cl.desafio.Principal                     : Noticia añadida correctamente
+2020-07-10 00:23:31.548 DEBUG 14768 --- [http-nio-8080-exec-3] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+2020-07-10 00:23:31.552 DEBUG 14768 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-07-10 00:23:39.811 DEBUG 14768 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2020-07-10 00:23:39.812 DEBUG 14768 --- [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to cl.desafio.Principal#Main(Model)
+2020-07-10 00:23:39.813  INFO 14768 --- [http-nio-8080-exec-4] cl.desafio.Principal                     : Noticia añadida correctamente
+2020-07-10 00:23:39.813  INFO 14768 --- [http-nio-8080-exec-4] cl.desafio.Principal                     : Noticia añadida correctamente
+2020-07-10 00:23:39.813  INFO 14768 --- [http-nio-8080-exec-4] cl.desafio.Principal                     : Noticia añadida correctamente
+2020-07-10 00:23:39.813  INFO 14768 --- [http-nio-8080-exec-4] cl.desafio.Principal                     : Noticia añadida correctamente
+2020-07-10 00:23:39.814  INFO 14768 --- [http-nio-8080-exec-4] cl.desafio.Principal                     : Noticia añadida correctamente
+2020-07-10 00:23:39.814  INFO 14768 --- [http-nio-8080-exec-4] cl.desafio.Principal                     : Noticia añadida correctamente
+2020-07-10 00:23:39.815 DEBUG 14768 --- [http-nio-8080-exec-4] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+2020-07-10 00:23:39.819 DEBUG 14768 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-07-10 00:23:47.913 DEBUG 14768 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2020-07-10 00:23:47.914 DEBUG 14768 --- [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to cl.desafio.Principal#Main(Model)
+2020-07-10 00:23:47.914  INFO 14768 --- [http-nio-8080-exec-6] cl.desafio.Principal                     : Noticia añadida correctamente
+2020-07-10 00:23:47.915  INFO 14768 --- [http-nio-8080-exec-6] cl.desafio.Principal                     : Noticia añadida correctamente
+2020-07-10 00:23:47.915  INFO 14768 --- [http-nio-8080-exec-6] cl.desafio.Principal                     : Noticia añadida correctamente
+2020-07-10 00:23:47.915  INFO 14768 --- [http-nio-8080-exec-6] cl.desafio.Principal                     : Noticia añadida correctamente
+2020-07-10 00:23:47.915  INFO 14768 --- [http-nio-8080-exec-6] cl.desafio.Principal                     : Noticia añadida correctamente
+2020-07-10 00:23:47.915  INFO 14768 --- [http-nio-8080-exec-6] cl.desafio.Principal                     : Noticia añadida correctamente
+2020-07-10 00:23:47.917 DEBUG 14768 --- [http-nio-8080-exec-6] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+2020-07-10 00:23:47.920 DEBUG 14768 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-07-10 00:24:50.933 DEBUG 14768 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2020-07-10 00:24:50.934 DEBUG 14768 --- [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to cl.desafio.Principal#Main(Model)
+2020-07-10 00:24:50.934  INFO 14768 --- [http-nio-8080-exec-9] cl.desafio.Principal                     : Noticia añadida correctamente
+2020-07-10 00:24:50.934  INFO 14768 --- [http-nio-8080-exec-9] cl.desafio.Principal                     : Noticia añadida correctamente
+2020-07-10 00:24:50.934  INFO 14768 --- [http-nio-8080-exec-9] cl.desafio.Principal                     : Noticia añadida correctamente
+2020-07-10 00:24:50.934  INFO 14768 --- [http-nio-8080-exec-9] cl.desafio.Principal                     : Noticia añadida correctamente
+2020-07-10 00:24:50.934  INFO 14768 --- [http-nio-8080-exec-9] cl.desafio.Principal                     : Noticia añadida correctamente
+2020-07-10 00:24:50.934  INFO 14768 --- [http-nio-8080-exec-9] cl.desafio.Principal                     : Noticia añadida correctamente
+2020-07-10 00:24:50.935 DEBUG 14768 --- [http-nio-8080-exec-9] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+2020-07-10 00:24:50.941 DEBUG 14768 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-07-10 00:27:44.107 DEBUG 14768 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2020-07-10 00:27:44.108 DEBUG 14768 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to cl.desafio.Principal#Main(Model)
+2020-07-10 00:27:44.109  INFO 14768 --- [http-nio-8080-exec-2] cl.desafio.Principal                     : Noticia añadida correctamente
+2020-07-10 00:27:44.109  INFO 14768 --- [http-nio-8080-exec-2] cl.desafio.Principal                     : Noticia añadida correctamente
+2020-07-10 00:27:44.109  INFO 14768 --- [http-nio-8080-exec-2] cl.desafio.Principal                     : Noticia añadida correctamente
+2020-07-10 00:27:44.109  INFO 14768 --- [http-nio-8080-exec-2] cl.desafio.Principal                     : Noticia añadida correctamente
+2020-07-10 00:27:44.109  INFO 14768 --- [http-nio-8080-exec-2] cl.desafio.Principal                     : Noticia añadida correctamente
+2020-07-10 00:27:44.109  INFO 14768 --- [http-nio-8080-exec-2] cl.desafio.Principal                     : Noticia añadida correctamente
+2020-07-10 00:27:44.110 DEBUG 14768 --- [http-nio-8080-exec-2] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+2020-07-10 00:27:44.120 DEBUG 14768 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-07-10 00:28:01.166 DEBUG 14768 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2020-07-10 00:28:01.167 DEBUG 14768 --- [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to cl.desafio.Principal#Main(Model)
+2020-07-10 00:28:01.167  INFO 14768 --- [http-nio-8080-exec-4] cl.desafio.Principal                     : Noticia añadida correctamente
+2020-07-10 00:28:01.167  INFO 14768 --- [http-nio-8080-exec-4] cl.desafio.Principal                     : Noticia añadida correctamente
+2020-07-10 00:28:01.167  INFO 14768 --- [http-nio-8080-exec-4] cl.desafio.Principal                     : Noticia añadida correctamente
+2020-07-10 00:28:01.167  INFO 14768 --- [http-nio-8080-exec-4] cl.desafio.Principal                     : Noticia añadida correctamente
+2020-07-10 00:28:01.167  INFO 14768 --- [http-nio-8080-exec-4] cl.desafio.Principal                     : Noticia añadida correctamente
+2020-07-10 00:28:01.167  INFO 14768 --- [http-nio-8080-exec-4] cl.desafio.Principal                     : Noticia añadida correctamente
+2020-07-10 00:28:01.169 DEBUG 14768 --- [http-nio-8080-exec-4] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+2020-07-10 00:28:01.173 DEBUG 14768 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-07-10 00:30:43.357 DEBUG 14768 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2020-07-10 00:30:43.359 DEBUG 14768 --- [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to cl.desafio.Principal#Main(Model)
+2020-07-10 00:30:43.360  INFO 14768 --- [http-nio-8080-exec-7] cl.desafio.Principal                     : Noticia añadida correctamente
+2020-07-10 00:30:43.360  INFO 14768 --- [http-nio-8080-exec-7] cl.desafio.Principal                     : Noticia añadida correctamente
+2020-07-10 00:30:43.360  INFO 14768 --- [http-nio-8080-exec-7] cl.desafio.Principal                     : Noticia añadida correctamente
+2020-07-10 00:30:43.361  INFO 14768 --- [http-nio-8080-exec-7] cl.desafio.Principal                     : Noticia añadida correctamente
+2020-07-10 00:30:43.361  INFO 14768 --- [http-nio-8080-exec-7] cl.desafio.Principal                     : Noticia añadida correctamente
+2020-07-10 00:30:43.361  INFO 14768 --- [http-nio-8080-exec-7] cl.desafio.Principal                     : Noticia añadida correctamente
+2020-07-10 00:30:43.362 DEBUG 14768 --- [http-nio-8080-exec-7] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+2020-07-10 00:30:43.366 DEBUG 14768 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-07-10 00:30:52.278 DEBUG 14768 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2020-07-10 00:30:52.278 DEBUG 14768 --- [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to cl.desafio.Principal#Main(Model)
+2020-07-10 00:30:52.279  INFO 14768 --- [http-nio-8080-exec-8] cl.desafio.Principal                     : Noticia añadida correctamente
+2020-07-10 00:30:52.279  INFO 14768 --- [http-nio-8080-exec-8] cl.desafio.Principal                     : Noticia añadida correctamente
+2020-07-10 00:30:52.279  INFO 14768 --- [http-nio-8080-exec-8] cl.desafio.Principal                     : Noticia añadida correctamente
+2020-07-10 00:30:52.279  INFO 14768 --- [http-nio-8080-exec-8] cl.desafio.Principal                     : Noticia añadida correctamente
+2020-07-10 00:30:52.279  INFO 14768 --- [http-nio-8080-exec-8] cl.desafio.Principal                     : Noticia añadida correctamente
+2020-07-10 00:30:52.279  INFO 14768 --- [http-nio-8080-exec-8] cl.desafio.Principal                     : Noticia añadida correctamente
+2020-07-10 00:30:52.280 DEBUG 14768 --- [http-nio-8080-exec-8] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+2020-07-10 00:30:52.283 DEBUG 14768 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-07-10 00:31:06.825 DEBUG 14768 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2020-07-10 00:31:06.827 DEBUG 14768 --- [http-nio-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to cl.desafio.Principal#Main(Model)
+2020-07-10 00:31:06.828  INFO 14768 --- [http-nio-8080-exec-10] cl.desafio.Principal                     : Noticia añadida correctamente
+2020-07-10 00:31:06.828  INFO 14768 --- [http-nio-8080-exec-10] cl.desafio.Principal                     : Noticia añadida correctamente
+2020-07-10 00:31:06.828  INFO 14768 --- [http-nio-8080-exec-10] cl.desafio.Principal                     : Noticia añadida correctamente
+2020-07-10 00:31:06.829  INFO 14768 --- [http-nio-8080-exec-10] cl.desafio.Principal                     : Noticia añadida correctamente
+2020-07-10 00:31:06.829  INFO 14768 --- [http-nio-8080-exec-10] cl.desafio.Principal                     : Noticia añadida correctamente
+2020-07-10 00:31:06.829  INFO 14768 --- [http-nio-8080-exec-10] cl.desafio.Principal                     : Noticia añadida correctamente
+2020-07-10 00:31:06.830 DEBUG 14768 --- [http-nio-8080-exec-10] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+2020-07-10 00:31:06.834 DEBUG 14768 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-07-10 00:31:11.420  INFO 14768 --- [RMI TCP Connection(5)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2020-07-10 00:31:11.686  INFO 14768 --- [RMI TCP Connection(5)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
